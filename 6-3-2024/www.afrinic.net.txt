@@ -1,0 +1,8 @@
+TracePath Output:
+
+ 1?: [LOCALHOST]                                         pmtu 1500
+ 1:  nova.subnetonline.com                                 0.086ms reached
+ 1:  nova.subnetonline.com                                 0.045ms reached
+     Resume: pmtu 1500 hops 1 back 1 
+
+ ---- Finished ------ 

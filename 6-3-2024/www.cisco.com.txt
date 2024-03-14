@@ -1,0 +1,22 @@
+TracePath Output:
+
+ 1?: [LOCALHOST]                                         pmtu 1500
+ 1:  nova.subnetonline.com                                 0.095ms reached
+ 1:  nova.subnetonline.com                                 0.050ms reached
+     Resume: pmtu 1500 hops 1 back 1 
+
+ ---- Finished ------ 
+
+
+C:\Users\malsaleh>ping www.cisco.com
+
+Pinging e2867.dsca.akamaiedge.net [2.20.149.28] with 32 bytes of data:
+Reply from 2.20.149.28: bytes=32 time=144ms TTL=51
+Reply from 2.20.149.28: bytes=32 time=144ms TTL=51
+Reply from 2.20.149.28: bytes=32 time=144ms TTL=51
+Reply from 2.20.149.28: bytes=32 time=143ms TTL=51
+
+Ping statistics for 2.20.149.28:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 143ms, Maximum = 144ms, Average = 143ms

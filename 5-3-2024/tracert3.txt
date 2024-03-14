@@ -1,0 +1,24 @@
+C:\Users\malsaleh>tracert www.lacnic.net
+
+Tracing route to www.lacnic.net [200.3.14.145]
+over a maximum of 30 hops:
+
+  1    19 ms    26 ms    20 ms  10.5.0.1
+  2    18 ms    24 ms    20 ms  185.245.255.254
+  3    41 ms    20 ms    19 ms  brx-b4-link.ip.twelve99.net [80.239.133.14]
+  4    25 ms     *        *     adm-bb2-link.ip.twelve99.net [62.115.116.230]
+  5    22 ms    22 ms    26 ms  adm-b10-link.ip.twelve99.net [62.115.120.229]
+  6    26 ms    25 ms    23 ms  ae-23.a01.amstnl07.nl.bb.gin.ntt.net [129.250.8.49]
+  7    27 ms    28 ms    29 ms  ae-3.r20.amstnl07.nl.bb.gin.ntt.net [129.250.7.86]
+  8    46 ms    33 ms    35 ms  ae-15.r20.londen12.uk.bb.gin.ntt.net [129.250.5.1]
+  9   101 ms     *      132 ms  ae-7.r20.nwrknj03.us.bb.gin.ntt.net [129.250.6.147]
+ 10   209 ms   220 ms   207 ms  ae-10.r00.saplbr02.br.bb.gin.ntt.net [129.250.2.13]
+ 11   229 ms   237 ms   233 ms  ae-4.a00.saplbr02.br.bb.gin.ntt.net [129.250.5.25]
+ 12   232 ms   238 ms   228 ms  ae1-1326.gw1.nu.registro.br [200.15.9.95]
+ 13   224 ms   253 ms   224 ms  xe-0-1-2-0.core1.nu.registro.br [200.160.0.160]
+ 14   228 ms   232 ms   229 ms  ae0-0.ar3.nu.registro.br [200.160.0.249]
+ 15   224 ms   224 ms   224 ms  ae0-0.gw1.jd.lacnic.net [200.160.0.212]
+ 16   224 ms   227 ms   246 ms  200.3.12.34
+ 17   230 ms   230 ms   236 ms  www.lacnic.net [200.3.14.145]
+
+Trace complete.

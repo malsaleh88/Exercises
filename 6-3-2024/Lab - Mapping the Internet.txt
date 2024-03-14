@@ -1,0 +1,29 @@
+
+All these pings were run from a computer located in the U.S. What happens to the average ping time in
+milliseconds when data is traveling within the same continent (North America) as compared to data from
+North America traveling to different continents?
+When data travels within the same continent, like North America, the average ping time in milliseconds is usually lower compared to data traveling to different continents.
+ However, when data crosses continents, there is a significant increase in latency or delay in milliseconds. This increase is due to the longer physical distance and the number of network hops required for the data to reach its destination.
+
+What is interesting about the pings that were sent to the European website?
+The interesting aspect about the pings sent to the European website ripe.net is that all four packets were lost, resulting in a 100% loss
+
+What happens at hop 7? Is level3.net the same ISP as hops 2-6, or a different ISP? Use the whois tool to answer this question.
+At hop 7, the traceroute encounters the domain "edge2.NewYork2.level3.net".
+Based on the Whois report, it doesn't directly indicate Level3.net as an ISP. However, it provides information about Afrinic Ltd., the organization behind the domain afrinic.net.
+Considering this, it's reasonable to assume that Level3.net represents a different ISP from the previous hops.
+
+What happens in hop 10 to the amount of time it takes for a packet to travel between Washington D.C.
+and Paris, as compared with the earlier hops 1-9? 
+The increase in the time it takes for a packet to travel between Washington D.C.
+ and Paris, compared to earlier hops 1-9, is because of the longer geographical distance between the two locations.
+
+What happens in hop 18? Do a whois lookup on 168.209.201.74 using the whois tool. Who owns this
+network? 
+In hop 18, the traceroute indicates the presence of a network with the IP address 168.209.201.74. According to the WHOIS information,
+ this IP address belongs to the network range 168.209.0.0 - 168.210.255.255, which is owned by Dimension Data, a company based in South Africa
+
+
+Type tracert www.lacnic.net
+What happens in hop 7? 
+In hop 7, there is a significant increase in the latency or delay in milliseconds compared to the previous hops.

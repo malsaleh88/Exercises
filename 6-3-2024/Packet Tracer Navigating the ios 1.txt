@@ -1,0 +1,25 @@
+-the setting for bits per second is 9600
+-connect
+-telnet terminal tracroute 
+-telnet terminal
+-turn on privileged commands
+-enable 
+-telnet terminal
+-S1(config)#
+-*0:53:18.514 UTC Mon Mar 1 1993
+-% Incomplete command.
+-S1#clock set ?
+  hh:mm:ss  Current Time
+-S1# clock set 15:00:00 ?
+  <1-31>  Day of the month
+  MONTH   Month of the year
+-S1#clock set 15:00:00 31 Jan 2035
+S1#show clock
+15:0:2.519 UTC Wed Jan 31 2035
+-S1#clock set 25:00:00             ^
+% Invalid input detected at '^' marker.	
+-S1#clock set 25:00:00 32           ^
+% Invalid input detected at '^' marker.
+
+
+

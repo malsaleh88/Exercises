@@ -1,0 +1,20 @@
+C:\Users\malsaleh>tracert www.afrinic.net
+
+Tracing route to www.afrinic.net [196.216.2.6]
+over a maximum of 30 hops:
+
+  1    19 ms    19 ms    22 ms  10.5.0.1
+  2    22 ms    19 ms    20 ms  185.245.255.254
+  3    29 ms    25 ms    28 ms  vl1122.par-itx5-core-2.cdn77.com [169.150.194.154]
+  4    36 ms    34 ms    34 ms  vl1102.mrs-itx2-core-2.cdn77.com [185.229.188.204]
+  5   330 ms   325 ms   325 ms  mauritiustelecom-mrs.cdn77.com [37.19.192.133]
+  6   367 ms   369 ms   366 ms  197.226.230.20
+  7   366 ms   373 ms   366 ms  196.20.225.86
+  8   369 ms   366 ms   367 ms  197.226.230.8
+  9   244 ms   246 ms   245 ms  za-gp-pkl-p-1-be-112.ip.ddii.network [168.209.129.138]
+ 10   244 ms   248 ms   246 ms  za-gp-pkl-hpe-1-be-111.ip.ddii.network [168.209.129.137]
+ 11   254 ms   255 ms   264 ms  196.37.155.172
+ 12   285 ms   254 ms   258 ms  tun0.br02.iso.afrinic.net [196.192.114.48]
+ 13   252 ms   254 ms   252 ms  www.afrinic.net [196.216.2.6]
+
+Trace complete.

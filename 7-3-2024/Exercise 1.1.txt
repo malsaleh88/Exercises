@@ -1,0 +1,8 @@
+-SSH (Secure Shell)
+-No,In IP addressing, each segment of the address must be within the range of 0 to 255. 
+-Switch(config)# interface vlan 1
+-ping
+-show ?
+-DHCP (Dynamic Host Configuration Protocol) is a network protocol used to automatically 
+assign IP addresses and other network configuration parameters to devices on a network.
+ A DHCP server is a computer running DHCP software that manages a pool of IP addresses and leases them to client devices.

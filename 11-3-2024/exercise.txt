@@ -1,0 +1,29 @@
+- yes at the bigining we couldnt see anything on the browser then the web site appear .
+- nothing 
+- under the in layers and out layers you can find The HTTP client sends a HTTP request to the server.
+- Sent segment information: the sequence number 1, the ACK number 1, and the data length 102. 
+The dst port is 80
+-the destination ip is 192.168.1.254
+-1. The next-hop IP address is a unicast. The ARP process looks it up in the ARP table.
+2. The next-hop IP address is in the ARP table. The ARP process sets the frame's destination MAC address to the one found in the table.
+3. The device encapsulates the PDU into an Ethernet frame
+-the ip address of the source and the ip address of the destination 
+-the source port and the destination port
+-he "Host" field in HTTP is associated with the Application Layer (Layer 7) of the OSI Model
+-HTTP Data:Connection: close
+
+
+I used ping 10.1.1.1 
+ping 10.1.1.2
+ping 10.1.1.5
+
+1.1 What type of wedge did you use to connect the PCs to the switch?
+-In a standard Ethernet connection, 
+when you connect a device (like a PC) to a switch, you use a straight-through cable.
+The reason for this is that the switch and the device (PC) operate at different OSI layers
+
+1.2 What type of cable did you use to connect the two switches? Explain the reason for this choice of cable.
+-Using a copper crossover cable to connect two switches is necessary 
+because switches typically operate at the same OSI layer (Data Link Layer, Layer 2).
+
+
